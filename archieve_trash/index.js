@@ -1,3 +1,4 @@
+require("dotenv").config({ path: "./.env" });
 import mongoose from "mongoose";
 import { DB_NAME } from "./constants";
 
